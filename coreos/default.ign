@@ -1,1 +1,1 @@
-{"ignition":{"version":"3.1.0"},"passwd":{"users":[{"name":"core","sshAuthorizedKeys":["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINMfeUPJ0fo2qAym18d8tZq6omB/QhyEFSJlq7fM2HgC"]}]}}
+{"ignition":{"version":"3.1.0"},"passwd":{"users":[{"groups":["wheel"],"homeDir":"/home/core","name":"core","noCreateHome":true,"passwordHash":"$y$j9T$riKY73999FJ17dJMz2BLC.$5/Zi62cnDlT73MEyhmVB2sF8tJMCKuYgzn02yr8kzZ.","sshAuthorizedKeys":["ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINMfeUPJ0fo2qAym18d8tZq6omB/QhyEFSJlq7fM2HgC"],"shell":"/bin/bash"}]}}
