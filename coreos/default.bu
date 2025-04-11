@@ -1,0 +1,13 @@
+variant: fcos
+version: 1.1.0
+passwd:
+  users:
+    - name: core
+      ssh_authorized_keys:
+        - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINMfeUPJ0fo2qAym18d8tZq6omB/QhyEFSJlq7fM2HgC
+      password_hash: $y$j9T$riKY73999FJ17dJMz2BLC.$5/Zi62cnDlT73MEyhmVB2sF8tJMCKuYgzn02yr8kzZ.
+      home_dir: /home/core
+      no_create_home: true
+      groups:
+        - wheel
+      shell: /bin/bash
